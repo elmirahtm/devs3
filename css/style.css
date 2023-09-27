@@ -1,0 +1,100 @@
+*{
+
+margin: 0;
+padding: 0;
+text-decoration: none;
+}
+.bg{
+background-image: url(../image/Rectangle\ 28\ \(1\).png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 95%;
+}
+.container{
+width: 75%;
+position: relative;
+background-image: url(../image/Group\ 36.png);
+background-repeat: no-repeat;
+background-position: right;
+}
+
+h1
+{
+ margin: 30px;   
+}
+
+p{
+    margin: 0 30px;
+}
+.boxes{
+
+    display: flex;
+    justify-content: left;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.box,
+.box1,
+.box2,
+.box3{
+    
+border: 2px solid white;
+width: 200px;height: 200px;
+margin: 30px ;
+border-radius: 10%;
+box-shadow: 10px 10px 10px lightgray;
+
+}
+
+.box{
+margin-left: 30px;
+    
+}
+.box1{
+    margin-top: 30px;
+}
+
+.box2{
+margin-left: -460px;
+margin-top: 300px;
+}
+
+.box3{
+    margin-top: 330px;
+}
+.in,
+.in1,
+.in2,
+.in3{
+    border: 2px solid brown;
+    width: 45px;height: 45px;
+    background-color: brown;
+    border-radius: 5px;
+    margin:20px 70px;
+}
+.in1{
+    border: 2px solid lightblue;
+    background-color: lightblue;
+    }
+.in2{
+
+    border: 2px solid green;
+    background-color: green;
+    
+}
+.in3{
+    border: 2px solid yellow;
+    background-color: yellow;
+    }
+
+img{
+    margin: 8px 7px;
+}
+h5{
+    text-align: center;
+}
+p{
+    font-size: small;
+    padding: 9px;
+}
+
